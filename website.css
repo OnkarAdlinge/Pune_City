@@ -1,0 +1,157 @@
+
+body
+{
+    margin: 0px;
+    background-image: url("./Assets/paperlines.gif");
+    color: #292727;
+	font-size: 87.5%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: 1.6;
+}
+h1
+{
+    margin-top: 1.5%;
+    font-family: 'Blaka Ink', cursive;
+    text-decoration: overline;
+}
+#img1
+{
+    height: 200px;
+    width: 500px;
+}
+#p1
+{
+   margin-top: 30px; 
+}
+nav
+{
+    float: right;
+}
+nav > div
+{
+    margin-top: 10px;
+}
+span
+{  
+    margin-right: 10px;
+    padding: 5px;
+    background-color: lightcoral;
+    border-radius: 10px;
+}
+span:hover
+{
+    background-color: lightblue;
+    border: 1px solid black;
+}
+a:link
+{
+    color: black;
+}
+h5
+{
+    margin-top: 30px;
+    margin-left: 30px;
+    position: relative;
+}
+#ul1
+{
+    list-style-type: circle;
+    display: flex;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -40px;
+}
+#ul1 li
+{
+    margin-left: 30px;
+}
+
+/* for about html */
+
+.poster
+{
+    height: 800px;
+    width: 800px;
+    position: relative;
+    left: 20%;
+    border: none;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+.poster div
+{
+    height: 300px;
+    width: 300px;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.poster img
+{
+    height: 200px;
+    width: 250px;
+}
+
+
+
+/* for places.html */
+#nav-div
+{
+    background-color: aqua;
+    height: 40px;
+    width: 100vw;
+    position: sticky;
+    top: 0px;
+}
+#nav-list,li
+{
+    float: right;
+    margin-right: 20px;
+    display: flex;
+    list-style: none;
+}
+#list2
+{
+    display: flex;
+    list-style: upper-roman;
+}
+#list2 li
+{
+    margin-left: 40px;
+}
+hr
+{
+    border: 2px solid black;
+}
+.container img
+{
+    height: 200px;
+    width: 300px;
+}
+.container img:nth-child(2n)
+{
+    float: right;
+}
+.container img:nth-child(2n+1)
+{
+    float: left;
+}
+.container p
+{
+    margin-left: 10%;
+    margin-right: 25%;
+}
+footer a:visited
+{
+    color: #292727;
+}
+h2~div,h3,p
+{
+    margin-left: 20px;
+}
